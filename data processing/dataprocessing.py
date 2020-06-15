@@ -8,7 +8,7 @@ Created on Mon Jun 11 23:25:23 2018
 from processing import raw_file_converter, data_generator, overlap_generator
 "define fu_num, if fu_num is 1, convert raw file from xml log file; if fu_num is 2, generate machine learning file with ground truth label; if fu_num is 3, genearte overlapping dataset.overlapping rate could be adjusted by changing cover_range and over_lapping" 
 "replace all Smartisan to Oneplus if you want to generate data based on Oneplus log file"
-fn_num=3; "select mode"
+fn_num=1; "select mode"
 time_step=1000; "set time step"
 cover_range=1000; "set cover range, or let's say time window"
 over_lapping=900; "choose overlapping rate, which means how many datapoints are repeated in next coming sample"
