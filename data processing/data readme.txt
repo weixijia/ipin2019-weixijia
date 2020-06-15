@@ -1,2 +1,3 @@
 run dataprocessing.py to generate data. Here, you can select three different types of data to create in the py file, which are original data, overlapping data and downsampled data.
+first select  fn_num==1 to extract raw csv file from the xml, then you could switch to mode 2 or 3 to create overlapping or downsampled data based on this generated raw csv file
 (processing.py is the function codes for the dataprocessing.py)
