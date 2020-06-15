@@ -1,0 +1,2 @@
+run dataprocessing.py to generate data. Here, you can select three different types of data to create in the py file, which are original data, overlapping data and downsampled data.
+(processing.py is the function codes for the dataprocessing.py)
